@@ -1,0 +1,134 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #364552;
+    padding: 0.3rem;
+}
+
+header a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: cornflowerblue;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+.container {
+    width: 200px;
+}
+main article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+}
+
+.inst {
+    width: 400px;
+    margin: 0 auto;
+} 
+
+section article h3 {
+    margin: 1rem;
+}
+
+.post{
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    padding: 1rem 1.2rem 1rem;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+#titulo{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#subtitulo{
+    text-align: center;
+    color: darkred;
+}
+#line{
+    height: 5px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.hor ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 20px ;
+    }
+.hor li {
+    margin: 10px;
+}
+
+.hor a {
+    text-decoration: none;
+}
+
+.proj th, td {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} 
+main td:hover {
+    color: blueviolet;
+}
+.proj table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.proj th {
+    font-size: x-large;
+}
+
+.me{
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    padding: 2rem;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+.div {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
